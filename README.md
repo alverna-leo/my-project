@@ -1,25 +1,39 @@
-## Hi there 👋
+# Hey 👋, I'm Alverna!
 
-# My Learning Projects
+🎓 **Aspiring Backend Developer** | Currently learning **.NET & Blazor**  
+💡 Passionate about creating scalable web applications and learning full-stack development.
 
-Hi! I'm Alverna, currently learning backend development and Blazor.
-This repository contains all my exercises, workshop activities, and small projects.
+---
 
-## 🧠 Topics Covered
-- C# basics (loops, arrays, conditions)
-- Object-Oriented Programming (OOP)
-- File Handling
-- Exception Handling
-- ASP.NET Core and Blazor
+### 🧠 What I’m Learning
+- C#, ASP.NET Core, and Blazor
+- REST API Development
+- SQL and Entity Framework
+- Git & GitHub for version control
 
-## 📁 Folder Structure
-| Folder | Description |
-|---------|-------------|
-| Basics | Small C# programs (variables, loops) |
-| OOP | Class and object exercises |
-| Blazor | Mini Blazor apps and components |
-| Workshop | Weekly tasks and assignments |
+---
 
-## 🚀 Next Steps
-Currently continuing my back-end course and working towards my final Blazor project.
+### 🚀 My Current Goals
+- Complete my backend development course  
+- Build my final Blazor project  
+- Improve my portfolio with real projects
 
+---
+
+### 🛠️ Tools & Technologies
+| Language / Framework | Tools |
+|----------------------|--------|
+| C#, ASP.NET, Blazor | Visual Studio, SQL Server |
+| HTML, CSS, JS | VS Code |
+| Git & GitHub | Collaboration, version control |
+
+---
+
+### 🌐 Connect With Me
+[![GitHub](https://img.shields.io/badge/GitHub-alverna--leo-181717?logo=github)](https://github.com/alverna-leo)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Alverna-blue?logo=linkedin)](https://linkedin.com/in/your-link)
+[![Email](https://img.shields.io/badge/Email-alverna@example.com-red?logo=gmail)](mailto:alverna@example.com)
+
+---
+
+⭐ *“Code, learn, and grow every day.”*
