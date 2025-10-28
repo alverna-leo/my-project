@@ -31,8 +31,8 @@
 
 ### 🌐 Connect With Me
 [![GitHub](https://img.shields.io/badge/GitHub-alverna--leo-181717?logo=github)](https://github.com/alverna-leo)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Alverna-blue?logo=linkedin)](https://linkedin.com/in/your-link)
-[![Email](https://img.shields.io/badge/Email-alvernaleo036@gmail.comlogo=gmail)](mailto:alvernaleo036@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-http://www.linkedin.com/in/alverna-leo?logo=linkedin)](http://www.linkedin.com/in/alverna-leo)
+[![Email](https://img.shields.io/badge/Email-alvernaleo036@gmail.com-red?logo=gmail)](mailto:alvernaleo036@gmail.com)
 
 ---
 
