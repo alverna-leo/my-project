@@ -1,31 +1,30 @@
-# Hey 👋, I'm Alverna!
+# 👋 Hey, I'm Alverna!
 
-🎓 **Aspiring Backend Developer** | Currently learning **.NET & Blazor**  
-💡 Passionate about creating scalable web applications and learning full-stack development.
-
----
-
-### 🧠 What I’m Learning
-- C#, ASP.NET Core, and Blazor
-- REST API Development
-- SQL and Entity Framework
-- Git & GitHub for version control
+🎓 Aspiring Backend Developer | Focused on building **dynamic web applications** using **C#** and **.NET technologies**.  
+🌱 Currently learning **ASP.NET Core MVC**, **Blazor**, and **Web API**.  
+🚀 Passionate about writing clean code, solving problems, and creating scalable web apps.
 
 ---
 
-### 🚀 My Current Goals
-- Complete my backend development course  
-- Build my final Blazor project  
-- Improve my portfolio with real projects
+### 🧰 Technical Skills
+
+**Programming Languages:** C#, JavaScript  
+**Web Frameworks:** ASP.NET Core MVC, Blazor, Web API *(in progress)*  
+**Templating Engine:** Razor  
+**Web Technologies:** HTML5, CSS3  
+**Databases:** MS SQL Server  
+**ORM:** Entity Framework Core  
+**Query Language:** LINQ  
+**Version Control:** Git, GitHub  
+**Testing:** Manual Testing, Regression Testing, Black-box Testing  
+**Tools & Methodologies:** Trello, Agile (Scrum & Kanban), SDLC, Use Case Diagrams
 
 ---
 
-### 🛠️ Tools & Technologies
-| Language / Framework | Tools |
-|----------------------|--------|
-| C#, ASP.NET, Blazor | Visual Studio, SQL Server |
-| HTML, CSS, JS | VS Code |
-| Git & GitHub | Collaboration, version control |
+### 📚 Current Learning Focus
+- Completing **ASP.NET Core MVC and Blazor** projects  
+- Building a **final project** integrating backend, frontend, and database  
+- Improving problem-solving and debugging skills  
 
 ---
 
