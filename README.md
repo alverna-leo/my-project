@@ -32,7 +32,7 @@
 ### 🌐 Connect With Me
 [![GitHub](https://img.shields.io/badge/GitHub-alverna--leo-181717?logo=github)](https://github.com/alverna-leo)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Alverna-blue?logo=linkedin)](https://linkedin.com/in/your-link)
-[![Email](https://img.shields.io/badge/Email-alverna@example.com-red?logo=gmail)](mailto:alverna@example.com)
+[![Email](https://img.shields.io/badge/Email-alvernaleo036@gmail.comlogo=gmail)](mailto:alvernaleo036@gmail.com)
 
 ---
 
