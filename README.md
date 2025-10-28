@@ -1,3 +1,9 @@
+### 🌐 Connect With Me
+<p align="center">
+[![GitHub](https://img.shields.io/badge/GitHub-alverna--leo-181717?logo=github)](https://github.com/alverna-leo)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-http://www.linkedin.com/in/alverna-leo?logo=linkedin)](http://www.linkedin.com/in/alverna-leo)
+[![Email](https://img.shields.io/badge/Email-alvernaleo036@gmail.com-red?logo=gmail)](mailto:alvernaleo036@gmail.com)
+
 # 👋 Hey, I'm Alverna!
 
 🎓 Aspiring Backend Developer | Focused on building **dynamic web applications** using **C#** and **.NET technologies**.  
@@ -28,10 +34,6 @@
 
 ---
 
-### 🌐 Connect With Me
-[![GitHub](https://img.shields.io/badge/GitHub-alverna--leo-181717?logo=github)](https://github.com/alverna-leo)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-http://www.linkedin.com/in/alverna-leo?logo=linkedin)](http://www.linkedin.com/in/alverna-leo)
-[![Email](https://img.shields.io/badge/Email-alvernaleo036@gmail.com-red?logo=gmail)](mailto:alvernaleo036@gmail.com)
 
 ---
 
