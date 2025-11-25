@@ -1,0 +1,63 @@
+﻿@page "/login"
+@inject IAuthService AuthService
+@inject NavigationManager Navigation
+@using Microsoft.AspNetCore.Components.Server.ProtectedBrowserStorage
+@using JobProviderApp.Interface
+@inject ProtectedSessionStorage SessionStorage
+
+<div class="container d-flex justify-content-center align-items-center vh-100">
+    <div class="card shadow-lg p-4" style="width: 400px;">
+        <div class="card-header bg-primary text-white text-center">
+            <h3>Job Provider Login</h3>
+        </div>
+        <div class="card-body">
+            <EditForm Model="loginModel" OnValidSubmit="Loginn">
+                <DataAnnotationsValidator />
+
+                <div class="mb-3">
+                    <label class="form-label fw-bold">Email:</label>
+                    <InputText class="form-control" @bind-Value="loginModel.Email" />
+                </div>
+                <div class="mb-3">
+                    <label class="form-label fw-bold">Password:</label>
+                    <InputText class="form-control" @bind-Value="loginModel.Password" Type="password" />
+                </div>
+
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary w-100">
+                        <i class="bi bi-box-arrow-in-right"></i> Login
+                    </button>
+                </div>
+            </EditForm>
+
+            @if (!string.IsNullOrEmpty(message))
+            {
+                <div class="alert alert-danger text-center mt-3">@message</div>
+            }
+        </div>
+    </div>
+</div>
+
+@code {
+    private LoginModel loginModel = new();
+    private string message = "";
+
+    private async Task Loginn()
+    {
+        var success = await AuthService.Login (loginModel.Email, loginModel.Password);
+        if (success)
+        {
+            Navigation.NavigateTo("/joblist");
+        }
+        else
+        {
+            message = "Invalid login credentials.";
+        }
+    }
+
+    private class LoginModel
+    {
+        public string Email { get; set; }
+        public string Password { get; set; }
+    }
+}

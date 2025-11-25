@@ -1,0 +1,173 @@
+﻿@page "/joblist"
+@inject IJobservice JobService
+@inject NavigationManager Navigation
+@inject ProtectedSessionStorage SessionStorage
+@* @using Microsoft.AspNetCore.Components.Forms *@
+@using JobProviderApp.Interface
+@using JobProviderApp.Dto
+@using Microsoft.AspNetCore.Components.Server.ProtectedBrowserStorage
+
+<div class="container mt-4">
+    <div class="card shadow-lg p-4">
+        <h3 class="text-center text-primary">Manage Jobs</h3>
+
+        @if (!string.IsNullOrEmpty(jobProviderEmail))
+        {
+            <div class="alert alert-success text-center">
+                <strong>Welcome, @jobProviderEmail!</strong>
+            </div>
+        }
+        else
+        {
+            <div class="alert alert-danger text-center">
+                <strong>You are not logged in.</strong>
+            </div>
+        }
+
+        @if (jobs == null)
+        {
+            <div class="text-center">
+                <div class="spinner-border text-primary" role="status">
+                    <span class="sr-only">Loading...</span>
+                </div>
+            </div>
+        }
+        else
+        {
+            <div class="table-responsive">
+                <table class="table table-hover table-bordered">
+                    <thead class="table-dark text-center">
+                        <tr>
+                            <th>Title</th>
+                            <th>Description</th>
+                            <th>Location</th>
+                            <th>Salary</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var job in jobs)
+                        {
+                            <tr>
+                                <td>@job.Title</td>
+                                <td>@job.Description</td>
+                                <td>@job.Location</td>
+                                <td>@job.Salary</td>
+                                <td class="text-center">
+                                    <button class="btn btn-warning btn-sm me-2" @onclick="() => EditJob(job)">
+                                        <i class="bi bi-pencil"></i> Edit
+                                    </button>
+                                    <button class="btn btn-danger btn-sm" @onclick="() => DeleteJob(job.Id)">
+                                        <i class="bi bi-trash"></i> Delete
+                                    </button>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="card mt-4 shadow">
+                <div class="card-header bg-primary text-white text-center">
+                    <h5>@(editingJob.Id == 0 ? "Add Job" : "Edit Job")</h5>
+                </div>
+                <div class="card-body">
+                    <EditForm Model="editingJob" OnValidSubmit="SaveJob">
+                        <DataAnnotationsValidator />
+
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Title:</label>
+                            <InputText class="form-control" @bind-Value="editingJob.Title" />
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Description:</label>
+                            <InputText class="form-control" @bind-Value="editingJob.Description" />
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Location:</label>
+                            <InputText class="form-control" @bind-Value="editingJob.Location" />
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Salary:</label>
+                            <InputNumber class="form-control" @bind-Value="editingJob.Salary" />
+                        </div>
+
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-success">
+                                <i class="bi bi-save"></i> Save
+                            </button>
+                        </div>
+                    </EditForm>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+@code {
+    private List<JobDto> jobs;
+    private JobDto editingJob = new();
+    private string jobProviderEmail;
+    private int? jobProviderId; // Store Provider ID from session
+
+    protected override async Task OnInitializedAsync()
+    {
+        var emailResult = await SessionStorage.GetAsync<string>("JobProviderEmail");
+        var idResult = await SessionStorage.GetAsync<int>("JobProviderId");
+
+        jobProviderEmail = emailResult.Success ? emailResult.Value : null;
+        jobProviderId = idResult.Success ? idResult.Value : (int?)null;
+
+        if (jobProviderEmail == null || jobProviderId == null)
+        {
+            Navigation.NavigateTo("/login");
+            return;
+        }
+
+        jobs = await JobService.GetJobsByProviderIdAsync(jobProviderId.Value);
+    }
+
+    private void EditJob(JobDto job)
+    {
+        editingJob = new JobDto
+        {
+            Id = job.Id,
+            Title = job.Title,
+            Description = job.Description,
+            Location = job.Location,
+            Salary = job.Salary
+        };
+    }
+
+    private async Task SaveJob()
+    {
+        if (jobProviderId == null)
+        {
+            Navigation.NavigateTo("/login");
+            return;
+        }
+
+        if (editingJob.Id == 0)
+            await JobService.AddJobAsync(editingJob, jobProviderId.Value);
+        else
+            await JobService.UpdateJobAsync(editingJob);
+
+        jobs = await JobService.GetJobsByProviderIdAsync(jobProviderId.Value);
+        editingJob = new();
+    }
+
+    private async Task DeleteJob(int jobId)
+    {
+        if (jobProviderId == null)
+        {
+            Navigation.NavigateTo("/login");
+            return;
+        }
+
+        await JobService.DeleteJobAsync(jobId);
+        jobs = await JobService.GetJobsByProviderIdAsync(jobProviderId.Value);
+    }
+}
