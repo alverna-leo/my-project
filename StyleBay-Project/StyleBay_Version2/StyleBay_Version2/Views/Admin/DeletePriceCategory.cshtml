@@ -1,0 +1,124 @@
+﻿@* @model Domain.Models.PriceCategory
+
+<div class="container mt-4">
+    <h4 class="text-danger">Delete Price Category</h4>
+
+    <div class="card p-4 shadow-sm">
+        <p>Are you sure you want to delete this category?</p>
+
+        <ul class="list-group mb-3">
+            <li class="list-group-item"><strong>Name:</strong> @Model.Name</li>
+            <li class="list-group-item"><strong>Range:</strong> @Model.MinPrice - @Model.MaxPrice</li>
+        </ul>
+
+        <form asp-action="DeletePriceCategory" method="post">
+            <input type="hidden" asp-for="Id" />
+            <button type="submit" class="btn btn-danger">Delete</button>
+            <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+        </form>
+    </div>
+</div> *@
+
+@model Domain.Models.PriceCategory
+
+@{
+    ViewData["Title"] = "Delete Price Category";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delete Price Category - StyleBay</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+
+<body class="bg-light">
+
+    <!-- BLUE ADMIN HEADER -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bold"
+                   asp-controller="Home"
+                   asp-action="Index">
+                    StyleBay
+                </a>
+
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-white"
+                               asp-controller="Admin"
+                               asp-action="Dashboard">
+                                Dashboard
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- DELETE CONFIRMATION -->
+    <main class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-8">
+
+                <div class="card shadow-sm border-danger">
+                    <div class="card-header bg-danger text-white text-center">
+                        <h4 class="mb-0">Delete Price Category</h4>
+                    </div>
+
+                    <div class="card-body p-4">
+
+                        <p class="fs-5 text-center mb-4">
+                            Are you sure you want to delete this price category?
+                        </p>
+
+                        <ul class="list-group mb-4">
+                            <li class="list-group-item">
+                                <strong>Name:</strong> @Model.Name
+                            </li>
+                            <li class="list-group-item">
+                                <strong>Range:</strong>
+                                @Model.MinPrice – @Model.MaxPrice
+                            </li>
+                        </ul>
+
+                        <form asp-action="DeletePriceCategory" method="post" class="text-center">
+                            @Html.AntiForgeryToken()
+                            <input type="hidden" asp-for="Id" />
+
+                            <div class="d-flex justify-content-center gap-3">
+                                <a asp-controller="Admin"
+                                   asp-action="ListPriceCategory"
+                                   class="btn btn-outline-secondary px-4">
+                                    Cancel
+                                </a>
+
+                                <button type="submit"
+                                        class="btn btn-danger px-4">
+                                    Delete
+                                </button>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,915 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|d:\\my folder\\to integrate\\stylebay_version2\\stylebay_version2\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|solutionrelative:stylebay_version2\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|d:\\my folder\\to integrate\\stylebay_version2\\stylebay_version2\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|solutionrelative:stylebay_version2\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|d:\\my folder\\to integrate\\stylebay_version2\\stylebay_version2\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|solutionrelative:stylebay_version2\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|d:\\my folder\\to integrate\\stylebay_version2\\stylebay_version2\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|solutionrelative:stylebay_version2\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|d:\\my folder\\to integrate\\stylebay_version2\\stylebay_version2\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|solutionrelative:stylebay_version2\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|d:\\my folder\\to integrate\\stylebay_version2\\stylebay_version2\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|solutionrelative:stylebay_version2\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|d:\\my folder\\to integrate\\stylebay_version2\\stylebay_version2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|solutionrelative:stylebay_version2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|d:\\my folder\\to integrate\\stylebay_version2\\stylebay_version2\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|solutionrelative:stylebay_version2\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|d:\\my folder\\to integrate\\stylebay_version2\\stylebay_version2\\views\\account\\adminlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|solutionrelative:stylebay_version2\\views\\account\\adminlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|d:\\my folder\\to integrate\\stylebay_version2\\stylebay_version2\\views\\admin\\userlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|solutionrelative:stylebay_version2\\views\\admin\\userlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|d:\\my folder\\to integrate\\stylebay_version2\\stylebay_version2\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|solutionrelative:stylebay_version2\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|d:\\my folder\\to integrate\\stylebay_version2\\stylebay_version2\\wwwroot\\css\\profile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|solutionrelative:stylebay_version2\\wwwroot\\css\\profile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|d:\\my folder\\to integrate\\stylebay_version2\\stylebay_version2\\views\\user\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|solutionrelative:stylebay_version2\\views\\user\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|d:\\my folder\\to integrate\\stylebay_version2\\stylebay_version2\\views\\user\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|solutionrelative:stylebay_version2\\views\\user\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|d:\\my folder\\to integrate\\stylebay_version2\\stylebay_version2\\views\\order\\myorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|solutionrelative:stylebay_version2\\views\\order\\myorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|d:\\my folder\\to integrate\\stylebay_version2\\stylebay_version2\\views\\order\\review.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|solutionrelative:stylebay_version2\\views\\order\\review.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|d:\\my folder\\to integrate\\stylebay_version2\\stylebay_version2\\views\\cart\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|solutionrelative:stylebay_version2\\views\\cart\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|d:\\my folder\\to integrate\\stylebay_version2\\stylebay_version2\\views\\order\\orderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|solutionrelative:stylebay_version2\\views\\order\\orderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|d:\\my folder\\to integrate\\stylebay_version2\\stylebay_version2\\wwwroot\\css\\cart.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|solutionrelative:stylebay_version2\\wwwroot\\css\\cart.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|d:\\my folder\\to integrate\\stylebay_version2\\stylebay_version2\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|solutionrelative:stylebay_version2\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|d:\\my folder\\to integrate\\stylebay_version2\\stylebay_version2\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|solutionrelative:stylebay_version2\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|d:\\my folder\\to integrate\\stylebay_version2\\stylebay_version2\\wwwroot\\css\\reviewstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|solutionrelative:stylebay_version2\\wwwroot\\css\\reviewstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|d:\\my folder\\to integrate\\stylebay_version2\\stylebay_version2\\wwwroot\\css\\orderdetails.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|solutionrelative:stylebay_version2\\wwwroot\\css\\orderdetails.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|d:\\my folder\\to integrate\\stylebay_version2\\stylebay_version2\\wwwroot\\css\\myorderstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|solutionrelative:stylebay_version2\\wwwroot\\css\\myorderstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|d:\\my folder\\to integrate\\stylebay_version2\\stylebay_version2\\wwwroot\\css\\editprofile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|solutionrelative:stylebay_version2\\wwwroot\\css\\editprofile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|d:\\my folder\\to integrate\\stylebay_version2\\stylebay_version2\\views\\admin\\listpricecategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|solutionrelative:stylebay_version2\\views\\admin\\listpricecategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B961D8BA-0F60-4F83-9066-391C73699C8B}|Domain\\Domain.csproj|d:\\my folder\\to integrate\\stylebay_version2\\domain\\interfaces\\ipricecategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B961D8BA-0F60-4F83-9066-391C73699C8B}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\ipricecategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B961D8BA-0F60-4F83-9066-391C73699C8B}|Domain\\Domain.csproj|d:\\my folder\\to integrate\\stylebay_version2\\domain\\repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B961D8BA-0F60-4F83-9066-391C73699C8B}|Domain\\Domain.csproj|solutionrelative:domain\\repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|d:\\my folder\\to integrate\\stylebay_version2\\stylebay_version2\\views\\order\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|solutionrelative:stylebay_version2\\views\\order\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|d:\\my folder\\to integrate\\stylebay_version2\\stylebay_version2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|solutionrelative:stylebay_version2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|d:\\my folder\\to integrate\\stylebay_version2\\stylebay_version2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|solutionrelative:stylebay_version2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|d:\\my folder\\to integrate\\stylebay_version2\\stylebay_version2\\views\\admin\\listorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|solutionrelative:stylebay_version2\\views\\admin\\listorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B961D8BA-0F60-4F83-9066-391C73699C8B}|Domain\\Domain.csproj|d:\\my folder\\to integrate\\stylebay_version2\\domain\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B961D8BA-0F60-4F83-9066-391C73699C8B}|Domain\\Domain.csproj|solutionrelative:domain\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B961D8BA-0F60-4F83-9066-391C73699C8B}|Domain\\Domain.csproj|d:\\my folder\\to integrate\\stylebay_version2\\domain\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B961D8BA-0F60-4F83-9066-391C73699C8B}|Domain\\Domain.csproj|solutionrelative:domain\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|d:\\my folder\\to integrate\\stylebay_version2\\stylebay_version2\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|solutionrelative:stylebay_version2\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|d:\\my folder\\to integrate\\stylebay_version2\\stylebay_version2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|solutionrelative:stylebay_version2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|d:\\my folder\\to integrate\\stylebay_version2\\stylebay_version2\\wwwroot\\css\\registration.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|solutionrelative:stylebay_version2\\wwwroot\\css\\registration.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B961D8BA-0F60-4F83-9066-391C73699C8B}|Domain\\Domain.csproj|d:\\my folder\\to integrate\\stylebay_version2\\domain\\repository\\dresscategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B961D8BA-0F60-4F83-9066-391C73699C8B}|Domain\\Domain.csproj|solutionrelative:domain\\repository\\dresscategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B961D8BA-0F60-4F83-9066-391C73699C8B}|Domain\\Domain.csproj|d:\\my folder\\to integrate\\stylebay_version2\\domain\\interfaces\\idresscategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B961D8BA-0F60-4F83-9066-391C73699C8B}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\idresscategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B961D8BA-0F60-4F83-9066-391C73699C8B}|Domain\\Domain.csproj|d:\\my folder\\to integrate\\stylebay_version2\\domain\\helper\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B961D8BA-0F60-4F83-9066-391C73699C8B}|Domain\\Domain.csproj|solutionrelative:domain\\helper\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B961D8BA-0F60-4F83-9066-391C73699C8B}|Domain\\Domain.csproj|d:\\my folder\\to integrate\\stylebay_version2\\domain\\helper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B961D8BA-0F60-4F83-9066-391C73699C8B}|Domain\\Domain.csproj|solutionrelative:domain\\helper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B961D8BA-0F60-4F83-9066-391C73699C8B}|Domain\\Domain.csproj|d:\\my folder\\to integrate\\stylebay_version2\\domain\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B961D8BA-0F60-4F83-9066-391C73699C8B}|Domain\\Domain.csproj|solutionrelative:domain\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B961D8BA-0F60-4F83-9066-391C73699C8B}|Domain\\Domain.csproj|d:\\my folder\\to integrate\\stylebay_version2\\domain\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B961D8BA-0F60-4F83-9066-391C73699C8B}|Domain\\Domain.csproj|solutionrelative:domain\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B961D8BA-0F60-4F83-9066-391C73699C8B}|Domain\\Domain.csproj|d:\\my folder\\to integrate\\stylebay_version2\\domain\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B961D8BA-0F60-4F83-9066-391C73699C8B}|Domain\\Domain.csproj|solutionrelative:domain\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|d:\\my folder\\to integrate\\stylebay_version2\\stylebay_version2\\wwwroot\\css\\ordersuccess.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1821015D-DBF4-4D06-92A4-8D6DD3831F2A}|StyleBay_Version2\\StyleBay_Version2.csproj|solutionrelative:stylebay_version2\\wwwroot\\css\\ordersuccess.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B961D8BA-0F60-4F83-9066-391C73699C8B}|Domain\\Domain.csproj|d:\\my folder\\to integrate\\stylebay_version2\\domain\\models\\pricecategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B961D8BA-0F60-4F83-9066-391C73699C8B}|Domain\\Domain.csproj|solutionrelative:domain\\models\\pricecategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B961D8BA-0F60-4F83-9066-391C73699C8B}|Domain\\Domain.csproj|d:\\my folder\\to integrate\\stylebay_version2\\domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B961D8BA-0F60-4F83-9066-391C73699C8B}|Domain\\Domain.csproj|solutionrelative:domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B961D8BA-0F60-4F83-9066-391C73699C8B}|Domain\\Domain.csproj|d:\\my folder\\to integrate\\stylebay_version2\\domain\\models\\dresscategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B961D8BA-0F60-4F83-9066-391C73699C8B}|Domain\\Domain.csproj|solutionrelative:domain\\models\\dresscategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B961D8BA-0F60-4F83-9066-391C73699C8B}|Domain\\Domain.csproj|d:\\my folder\\to integrate\\stylebay_version2\\domain\\models\\dress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B961D8BA-0F60-4F83-9066-391C73699C8B}|Domain\\Domain.csproj|solutionrelative:domain\\models\\dress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B961D8BA-0F60-4F83-9066-391C73699C8B}|Domain\\Domain.csproj|d:\\my folder\\to integrate\\stylebay_version2\\domain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B961D8BA-0F60-4F83-9066-391C73699C8B}|Domain\\Domain.csproj|solutionrelative:domain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B961D8BA-0F60-4F83-9066-391C73699C8B}|Domain\\Domain.csproj|d:\\my folder\\to integrate\\stylebay_version2\\domain\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B961D8BA-0F60-4F83-9066-391C73699C8B}|Domain\\Domain.csproj|solutionrelative:domain\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Blazor\\Project 2.0\\Project_Version2\\StyleBay_Version2\\Domain\\Migrations\\20260107052422_newadded2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Blazor\\Project 2.0\\Project_Version2\\StyleBay_Version2\\Domain\\Migrations\\20260107051754_newadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Blazor\\Project 2.0\\Project_Version2\\StyleBay_Version2\\Domain\\Migrations\\20260107051212_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B961D8BA-0F60-4F83-9066-391C73699C8B}|Domain\\Domain.csproj|d:\\my folder\\to integrate\\stylebay_version2\\domain\\migrations\\20260108075051_new1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B961D8BA-0F60-4F83-9066-391C73699C8B}|Domain\\Domain.csproj|solutionrelative:domain\\migrations\\20260108075051_new1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B961D8BA-0F60-4F83-9066-391C73699C8B}|Domain\\Domain.csproj|d:\\my folder\\to integrate\\stylebay_version2\\domain\\migrations\\20260114095917_newww.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B961D8BA-0F60-4F83-9066-391C73699C8B}|Domain\\Domain.csproj|solutionrelative:domain\\migrations\\20260114095917_newww.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "StyleBay_Version2\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\Controllers\\CartController.cs",
+              "RelativeToolTip": "StyleBay_Version2\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T09:08:24.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "StyleBay_Version2\\Controllers\\OrderController.cs",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "StyleBay_Version2\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAHgAAACgZmZmZmYowJQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T09:16:35.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "StyleBay_Version2\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\Controllers\\UserController.cs",
+              "RelativeToolTip": "StyleBay_Version2\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T07:28:46.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "StyleBay_Version2\\Views\\Admin\\Dashboard.cshtml",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "StyleBay_Version2\\Views\\Admin\\Dashboard.cshtml",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAUwNcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-14T13:26:14.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserList.cshtml",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\Views\\Admin\\UserList.cshtml",
+              "RelativeDocumentMoniker": "StyleBay_Version2\\Views\\Admin\\UserList.cshtml",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\Views\\Admin\\UserList.cshtml",
+              "RelativeToolTip": "StyleBay_Version2\\Views\\Admin\\UserList.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-14T13:27:37.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "StyleBay_Version2\\Views\\Account\\Register.cshtml",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "StyleBay_Version2\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAABkAAAAANDMzMzMLwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-14T17:10:54.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "StyleBay_Version2\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "StyleBay_Version2\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T10:40:39.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "StyleBay_Version2\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "StyleBay_Version2\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAADUBAAAAAAAAAAAAADsBAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T13:58:24.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "StyleBay_Version2\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "StyleBay_Version2\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T10:18:16.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "StyleBay_Version2\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "StyleBay_Version2\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwIQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T10:41:06.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EditProfile.cshtml",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\Views\\User\\EditProfile.cshtml",
+              "RelativeDocumentMoniker": "StyleBay_Version2\\Views\\User\\EditProfile.cshtml",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\Views\\User\\EditProfile.cshtml",
+              "RelativeToolTip": "StyleBay_Version2\\Views\\User\\EditProfile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T06:22:33.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "profile.css",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\wwwroot\\css\\profile.css",
+              "RelativeDocumentMoniker": "StyleBay_Version2\\wwwroot\\css\\profile.css",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\wwwroot\\css\\profile.css",
+              "RelativeToolTip": "StyleBay_Version2\\wwwroot\\css\\profile.css",
+              "ViewState": "AgIAAMMAAAAAAAAAAABsPcgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-13T05:33:20.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\Views\\User\\Profile.cshtml",
+              "RelativeDocumentMoniker": "StyleBay_Version2\\Views\\User\\Profile.cshtml",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\Views\\User\\Profile.cshtml",
+              "RelativeToolTip": "StyleBay_Version2\\Views\\User\\Profile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T05:32:08.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AdminLogin.cshtml",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\Views\\Account\\AdminLogin.cshtml",
+              "RelativeDocumentMoniker": "StyleBay_Version2\\Views\\Account\\AdminLogin.cshtml",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\Views\\Account\\AdminLogin.cshtml",
+              "RelativeToolTip": "StyleBay_Version2\\Views\\Account\\AdminLogin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-14T17:19:17.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Review.cshtml",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\Views\\Order\\Review.cshtml",
+              "RelativeDocumentMoniker": "StyleBay_Version2\\Views\\Order\\Review.cshtml",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\Views\\Order\\Review.cshtml",
+              "RelativeToolTip": "StyleBay_Version2\\Views\\Order\\Review.cshtml",
+              "ViewState": "AgIAAGgAAAAANDMzMzMbwB0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-07T09:18:57.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Cart.cshtml",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\Views\\Cart\\Cart.cshtml",
+              "RelativeDocumentMoniker": "StyleBay_Version2\\Views\\Cart\\Cart.cshtml",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\Views\\Cart\\Cart.cshtml",
+              "RelativeToolTip": "StyleBay_Version2\\Views\\Cart\\Cart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-12T09:09:55.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "OrderDetails.cshtml",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\Views\\Order\\OrderDetails.cshtml",
+              "RelativeDocumentMoniker": "StyleBay_Version2\\Views\\Order\\OrderDetails.cshtml",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\Views\\Order\\OrderDetails.cshtml",
+              "RelativeToolTip": "StyleBay_Version2\\Views\\Order\\OrderDetails.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-12T04:50:05.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MyOrders.cshtml",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\Views\\Order\\MyOrders.cshtml",
+              "RelativeDocumentMoniker": "StyleBay_Version2\\Views\\Order\\MyOrders.cshtml",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\Views\\Order\\MyOrders.cshtml",
+              "RelativeToolTip": "StyleBay_Version2\\Views\\Order\\MyOrders.cshtml",
+              "ViewState": "AgIAAA8AAACAZmZmZmYkwCMAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T06:13:38.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Cart.css",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\wwwroot\\css\\Cart.css",
+              "RelativeDocumentMoniker": "StyleBay_Version2\\wwwroot\\css\\Cart.css",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\wwwroot\\css\\Cart.css",
+              "RelativeToolTip": "StyleBay_Version2\\wwwroot\\css\\Cart.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-12T09:15:10.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ReviewStyle.css",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\wwwroot\\css\\ReviewStyle.css",
+              "RelativeDocumentMoniker": "StyleBay_Version2\\wwwroot\\css\\ReviewStyle.css",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\wwwroot\\css\\ReviewStyle.css",
+              "RelativeToolTip": "StyleBay_Version2\\wwwroot\\css\\ReviewStyle.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-07T09:34:43.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "OrderDetails.css",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\wwwroot\\css\\OrderDetails.css",
+              "RelativeDocumentMoniker": "StyleBay_Version2\\wwwroot\\css\\OrderDetails.css",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\wwwroot\\css\\OrderDetails.css",
+              "RelativeToolTip": "StyleBay_Version2\\wwwroot\\css\\OrderDetails.css",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAHUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-12T05:09:18.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MyOrderStyle.css",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\wwwroot\\css\\MyOrderStyle.css",
+              "RelativeDocumentMoniker": "StyleBay_Version2\\wwwroot\\css\\MyOrderStyle.css",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\wwwroot\\css\\MyOrderStyle.css",
+              "RelativeToolTip": "StyleBay_Version2\\wwwroot\\css\\MyOrderStyle.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-13T06:14:10.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "editprofile.css",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\wwwroot\\css\\editprofile.css",
+              "RelativeDocumentMoniker": "StyleBay_Version2\\wwwroot\\css\\editprofile.css",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\wwwroot\\css\\editprofile.css",
+              "RelativeToolTip": "StyleBay_Version2\\wwwroot\\css\\editprofile.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-13T06:23:42.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ListPriceCategory.cshtml",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\Views\\Admin\\ListPriceCategory.cshtml",
+              "RelativeDocumentMoniker": "StyleBay_Version2\\Views\\Admin\\ListPriceCategory.cshtml",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\Views\\Admin\\ListPriceCategory.cshtml",
+              "RelativeToolTip": "StyleBay_Version2\\Views\\Admin\\ListPriceCategory.cshtml",
+              "ViewState": "AgIAABYAAACAMzMzMzMLwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-14T13:27:45.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "StyleBay_Version2\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "StyleBay_Version2\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-14T13:28:20.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IPriceCategoryService.cs",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\Domain\\Interfaces\\IPriceCategoryService.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IPriceCategoryService.cs",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\Domain\\Interfaces\\IPriceCategoryService.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IPriceCategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T13:27:15.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Style.css",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\wwwroot\\css\\Style.css",
+              "RelativeDocumentMoniker": "StyleBay_Version2\\wwwroot\\css\\Style.css",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\wwwroot\\css\\Style.css",
+              "RelativeToolTip": "StyleBay_Version2\\wwwroot\\css\\Style.css",
+              "ViewState": "AgIAAJcAAAAANDMzMzMrwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-07T07:33:33.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\Domain\\Repository\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Repository\\OrderRepository.cs",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\Domain\\Repository\\OrderRepository.cs",
+              "RelativeToolTip": "Domain\\Repository\\OrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T13:27:08.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "20260114095917_newww.cs",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\Domain\\Migrations\\20260114095917_newww.cs",
+              "RelativeDocumentMoniker": "Domain\\Migrations\\20260114095917_newww.cs",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\Domain\\Migrations\\20260114095917_newww.cs",
+              "RelativeToolTip": "Domain\\Migrations\\20260114095917_newww.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T09:59:18.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "PasswordHelper.cs",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\Domain\\Helper\\PasswordHelper.cs",
+              "RelativeDocumentMoniker": "Domain\\Helper\\PasswordHelper.cs",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\Domain\\Helper\\PasswordHelper.cs",
+              "RelativeToolTip": "Domain\\Helper\\PasswordHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T10:10:56.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\Program.cs",
+              "RelativeDocumentMoniker": "StyleBay_Version2\\Program.cs",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\Program.cs",
+              "RelativeToolTip": "StyleBay_Version2\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T05:10:33.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Success.cshtml",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\Views\\Order\\Success.cshtml",
+              "RelativeDocumentMoniker": "StyleBay_Version2\\Views\\Order\\Success.cshtml",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\Views\\Order\\Success.cshtml",
+              "RelativeToolTip": "StyleBay_Version2\\Views\\Order\\Success.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-08T05:59:44.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ListOrders.cshtml",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\Views\\Admin\\ListOrders.cshtml",
+              "RelativeDocumentMoniker": "StyleBay_Version2\\Views\\Admin\\ListOrders.cshtml",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\Views\\Admin\\ListOrders.cshtml",
+              "RelativeToolTip": "StyleBay_Version2\\Views\\Admin\\ListOrders.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAFwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T11:08:05.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IDressCategoryRepository.cs",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\Domain\\Interfaces\\IDressCategoryRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IDressCategoryRepository.cs",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\Domain\\Interfaces\\IDressCategoryRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IDressCategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T10:12:50.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "StyleBay_Version2\\Views\\User\\Index.cshtml",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "StyleBay_Version2\\Views\\User\\Index.cshtml",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAcwFIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-07T07:31:37.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\appsettings.json",
+              "RelativeDocumentMoniker": "StyleBay_Version2\\appsettings.json",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\appsettings.json",
+              "RelativeToolTip": "StyleBay_Version2\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAACxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-07T05:10:11.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\Domain\\Models\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\OrderDetail.cs",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\Domain\\Models\\OrderDetail.cs",
+              "RelativeToolTip": "Domain\\Models\\OrderDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T05:08:53.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\Domain\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Order.cs",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\Domain\\Models\\Order.cs",
+              "RelativeToolTip": "Domain\\Models\\Order.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAgwBwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T05:08:45.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "DressCategoryRepository.cs",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\Domain\\Repository\\DressCategoryRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Repository\\DressCategoryRepository.cs",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\Domain\\Repository\\DressCategoryRepository.cs",
+              "RelativeToolTip": "Domain\\Repository\\DressCategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T10:13:28.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Registration.css",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\wwwroot\\css\\Registration.css",
+              "RelativeDocumentMoniker": "StyleBay_Version2\\wwwroot\\css\\Registration.css",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\wwwroot\\css\\Registration.css",
+              "RelativeToolTip": "StyleBay_Version2\\wwwroot\\css\\Registration.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-13T10:15:00.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "StyleBay_Version2\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "StyleBay_Version2\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T10:22:41.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\Domain\\Helper\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Domain\\Helper\\MappingProfile.cs",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\Domain\\Helper\\MappingProfile.cs",
+              "RelativeToolTip": "Domain\\Helper\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T10:10:53.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\Domain\\DTO\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "Domain\\DTO\\RegisterDto.cs",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\Domain\\DTO\\RegisterDto.cs",
+              "RelativeToolTip": "Domain\\DTO\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T10:09:12.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\Domain\\DTO\\LoginDto.cs",
+              "RelativeDocumentMoniker": "Domain\\DTO\\LoginDto.cs",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\Domain\\DTO\\LoginDto.cs",
+              "RelativeToolTip": "Domain\\DTO\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T10:09:03.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "OrderSuccess.css",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\wwwroot\\css\\OrderSuccess.css",
+              "RelativeDocumentMoniker": "StyleBay_Version2\\wwwroot\\css\\OrderSuccess.css",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\StyleBay_Version2\\wwwroot\\css\\OrderSuccess.css",
+              "RelativeToolTip": "StyleBay_Version2\\wwwroot\\css\\OrderSuccess.css",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAcwDsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-12T05:04:32.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "20260108075051_new1.cs",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\Domain\\Migrations\\20260108075051_new1.cs",
+              "RelativeDocumentMoniker": "Domain\\Migrations\\20260108075051_new1.cs",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\Domain\\Migrations\\20260108075051_new1.cs",
+              "RelativeToolTip": "Domain\\Migrations\\20260108075051_new1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T07:50:51.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\Domain\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Domain\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\Domain\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Domain\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T05:23:51.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "PriceCategory.cs",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\Domain\\Models\\PriceCategory.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\PriceCategory.cs",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\Domain\\Models\\PriceCategory.cs",
+              "RelativeToolTip": "Domain\\Models\\PriceCategory.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAswBEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T05:09:00.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\Domain\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\User.cs",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\Domain\\Models\\User.cs",
+              "RelativeToolTip": "Domain\\Models\\User.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAowCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T07:08:45.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Dress.cs",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\Domain\\Models\\Dress.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Dress.cs",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\Domain\\Models\\Dress.cs",
+              "RelativeToolTip": "Domain\\Models\\Dress.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAkwBcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T05:08:15.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "DressCategory.cs",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\Domain\\Models\\DressCategory.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\DressCategory.cs",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\Domain\\Models\\DressCategory.cs",
+              "RelativeToolTip": "Domain\\Models\\DressCategory.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAwwBAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T05:08:29.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\Domain\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\CartItem.cs",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\Domain\\Models\\CartItem.cs",
+              "RelativeToolTip": "Domain\\Models\\CartItem.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA2wBMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T05:07:51.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\Domain\\Enums\\UserRole.cs",
+              "RelativeDocumentMoniker": "Domain\\Enums\\UserRole.cs",
+              "ToolTip": "D:\\MY FOLDER\\to integrate\\StyleBay_Version2\\Domain\\Enums\\UserRole.cs",
+              "RelativeToolTip": "Domain\\Enums\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T07:46:44.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "20260107052422_newadded2.cs",
+              "DocumentMoniker": "D:\\Blazor\\Project 2.0\\Project_Version2\\StyleBay_Version2\\Domain\\Migrations\\20260107052422_newadded2.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Blazor\\Project 2.0\\Project_Version2\\StyleBay_Version2\\Domain\\Migrations\\20260107052422_newadded2.cs",
+              "ToolTip": "D:\\Blazor\\Project 2.0\\Project_Version2\\StyleBay_Version2\\Domain\\Migrations\\20260107052422_newadded2.cs",
+              "RelativeToolTip": "..\\..\\..\\Blazor\\Project 2.0\\Project_Version2\\StyleBay_Version2\\Domain\\Migrations\\20260107052422_newadded2.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T05:24:23.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "20260107051754_newadded.cs",
+              "DocumentMoniker": "D:\\Blazor\\Project 2.0\\Project_Version2\\StyleBay_Version2\\Domain\\Migrations\\20260107051754_newadded.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Blazor\\Project 2.0\\Project_Version2\\StyleBay_Version2\\Domain\\Migrations\\20260107051754_newadded.cs",
+              "ToolTip": "D:\\Blazor\\Project 2.0\\Project_Version2\\StyleBay_Version2\\Domain\\Migrations\\20260107051754_newadded.cs",
+              "RelativeToolTip": "..\\..\\..\\Blazor\\Project 2.0\\Project_Version2\\StyleBay_Version2\\Domain\\Migrations\\20260107051754_newadded.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T05:17:54.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "20260107051212_first.cs",
+              "DocumentMoniker": "D:\\Blazor\\Project 2.0\\Project_Version2\\StyleBay_Version2\\Domain\\Migrations\\20260107051212_first.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Blazor\\Project 2.0\\Project_Version2\\StyleBay_Version2\\Domain\\Migrations\\20260107051212_first.cs",
+              "ToolTip": "D:\\Blazor\\Project 2.0\\Project_Version2\\StyleBay_Version2\\Domain\\Migrations\\20260107051212_first.cs",
+              "RelativeToolTip": "..\\..\\..\\Blazor\\Project 2.0\\Project_Version2\\StyleBay_Version2\\Domain\\Migrations\\20260107051212_first.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T05:12:13.967Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+﻿@model List<Domain.Models.Order>
+
+@{
+    Layout = null;
+}
+
+<link rel="stylesheet" href="~/css/MyOrderStyle.css" />
+
+<header class="header">
+    <div class="logo">StyleBay</div>
+    <a href="/User/Index" class="header-home-btn">Home</a>
+</header>
+
+<div class="orders-container">
+    <h2>My Orders</h2>
+
+    @if (Model == null || !Model.Any())
+    {
+        <p class="empty-text">You have not placed any orders yet.</p>
+    }
+    else
+    {
+        foreach (var order in Model)
+        {
+            if (order.OrderDetails != null)
+            {
+                foreach (var item in order.OrderDetails)
+                {
+                    if (item.Dress != null)
+                    {
+                        <div class="order-card">
+
+                            <!-- ✅ IMAGE FROM DRESS TABLE -->
+                            <div class="order-image">
+                                <img src="@Url.Content(item.Dress.ImageName.Replace("/images/", "/Images/"))"
+                                     alt="@item.Dress.Name" />
+                            </div>
+
+                            <!-- DETAILS -->
+                            <div class="order-info">
+                                <p class="dress-name">@item.Dress.Name</p>
+                                <p>Quantity: <strong>@item.Quantity</strong></p>
+                                <p>Price: ₹@item.Price</p>
+                                <p>Total: ₹@(item.Price* item.Quantity)</p>
+                            </div>
+
+                            <!-- ACTION -->
+                            <div class="order-action">
+                                <form method="post" action="/Order/Review">
+                                    <input type="hidden" name="dressId" value="@item.Dress.Id" />
+                                    <input type="hidden" name="quantity" value="@item.Quantity" />
+                                    <button type="submit" class="btn-buy">
+                                        Buy Again
+                                    </button>
+                                </form>
+                            </div>
+
+                        </div>
+                    }
+                }
+            }
+        }
+    }
+</div>

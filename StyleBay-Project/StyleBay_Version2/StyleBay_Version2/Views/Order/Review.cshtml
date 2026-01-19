@@ -1,0 +1,175 @@
+﻿@model Domain.Models.Dress
+
+@{
+    Layout = null;
+    int quantity = ViewBag.Quantity ?? 1;
+    string registeredAddress = ViewBag.UserAddress ?? "";
+    string phone = ViewBag.Phone ?? "";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Review Order</title>
+    <link rel="stylesheet" href="~/css/ReviewStyle.css" />
+</head>
+<body>
+
+    <!-- HEADER WITH HOME BUTTON -->
+    <header class="header">
+        <div class="header-left">StyleBay</div>
+        <a href="/User/Index" class="header-home-btn">Home</a>
+    </header>
+
+    <div class="review-card">
+
+        <!-- Heading -->
+        <h2>Review Your Order</h2>
+
+        <!-- Flex container -->
+        <div class="review-content">
+
+            <!-- Dress Image -->
+            <div class="dress-image">
+                <img src="@Url.Content(Model.ImageName.Replace("/images/", "/Images/"))"
+                     alt="@Model.Name" />
+            </div>
+
+            <!-- Details Section -->
+            <div class="review-details">
+
+                <p><strong>Dress:</strong> @Model.Name</p>
+                <p><strong>Price per item:</strong> ₹<span id="price">@Model.Price</span></p>
+
+                <form method="post" action="/Order/BuyNow" id="orderForm">
+                    <input type="hidden" name="id" value="@Model.Id" />
+
+                    <!-- Quantity -->
+                    <label><strong>Quantity</strong></label>
+                    <input type="number" id="quantity" name="quantity" value="@quantity" min="1" />
+                    <div id="error-msg">Quantity must be at least 1</div>
+
+                    <p class="total">
+                        Total: ₹<span id="total">@(@Model.Price* quantity)</span>
+                    </p>
+
+                    <!-- Address -->
+                    <label><strong>Select Address</strong></label>
+
+                    <div class="address-option">
+                        <input type="radio" name="addressType" value="registered" checked /> Registered Address
+                        <div class="address-text">
+                            <div>@registeredAddress</div>
+                            @if (!string.IsNullOrWhiteSpace(phone))
+                            {
+                                <div>📞 @phone</div>
+                            }
+                        </div>
+                    </div>
+
+                    <div class="address-option">
+                        <input type="radio" name="addressType" value="new" /> New Address
+                    </div>
+
+                    <div id="newAddressContainer" style="display:none;">
+                        <input type="text" name="streetArea" placeholder="House / Street / Area" />
+                        <input type="text" name="cityState" placeholder="City, State" />
+                        <input type="text" name="pinCode" placeholder="PinCode" />
+                        <input type="text" name="phoneNumber" placeholder="Phone" />
+                    </div>
+
+                    <!-- Payment -->
+                    <label><strong>Payment Method</strong></label>
+                    <div>
+                        <input type="radio" name="paymentMethod" value="COD" checked /> Cash on Delivery
+                    </div>
+                    <div>
+                        <input type="radio" name="paymentMethod" value="GPay" /> GPay
+                    </div>
+
+                    <!-- Buttons -->
+                    <div class="btn-group">
+                        <button type="submit" class="btn buy-now">Place Order</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const quantityInput = document.getElementById('quantity');
+        const totalSpan = document.getElementById('total');
+        const price = parseFloat(document.getElementById('price').innerText);
+        const errorMsg = document.getElementById('error-msg');
+
+        const addressRadios = document.querySelectorAll('input[name="addressType"]');
+        const newAddressContainer = document.getElementById('newAddressContainer');
+
+        // Update total on quantity change
+        quantityInput.addEventListener('input', function () {
+            let qty = parseInt(this.value);
+            if (!qty || qty < 1) {
+                errorMsg.style.display = "block";
+                qty = 1;
+            } else {
+                errorMsg.style.display = "none";
+            }
+            totalSpan.innerText = (price * qty).toFixed(2);
+        });
+
+        // Show/hide new address
+        addressRadios.forEach(radio => {
+            radio.addEventListener('change', function () {
+                if (this.value === "new") {
+                    newAddressContainer.style.display = "block";
+                } else {
+                    newAddressContainer.style.display = "none";
+                    newAddressContainer.querySelectorAll('input').forEach(i => i.value = '');
+                }
+            });
+        });
+
+        // Front-end validation
+        document.getElementById("orderForm").addEventListener("submit", function (e) {
+            // Quantity check
+            const qty = parseInt(this.quantity.value);
+            if (!qty || qty < 1) {
+                alert("Quantity must be at least 1.");
+                e.preventDefault();
+                return;
+            }
+
+            // New address validation
+            const selected = document.querySelector('input[name="addressType"]:checked').value;
+            if (selected === "new") {
+                const street = this.streetArea.value.trim();
+                const cityState = this.cityState.value.trim();
+                const pin = this.pinCode.value.trim();
+                const phone = this.phoneNumber.value.trim();
+
+                if (!street || !cityState || !pin || !phone) {
+                    alert("Please fill all new address fields.");
+                    e.preventDefault();
+                    return;
+                }
+
+                if (!/^\d+$/.test(pin)) {
+                    alert("PinCode must be numeric.");
+                    e.preventDefault();
+                    return;
+                }
+
+                // Phone validation: numeric and exactly 10 digits
+                if (!/^\d{10}$/.test(phone)) {
+                    alert("Phone number must be numeric and exactly 10 digits.");
+                    e.preventDefault();
+                    return;
+                }
+            }
+        });
+    </script>
+
+</body>
+</html>

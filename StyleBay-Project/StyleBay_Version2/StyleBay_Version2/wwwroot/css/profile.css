@@ -1,0 +1,200 @@
+﻿/* ================= RESET ================= */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* ================= HEADER ================= */
+.main-header {
+    position: fixed; /* keep header on top */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 40px; /* top & bottom padding = 30px each */
+    background-color: #ff4081;
+    color: white;
+    gap: 10px;
+    box-sizing: border-box;
+}
+
+.header-left {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* Right container for Home + More Options */
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* space between Home and More Options */
+}
+
+/* ================= HOME & MORE BUTTONS ================= */
+.header-home-btn,
+.more-btn {
+    width: 120px; /* same width for both buttons */
+    text-align: center;
+    padding: 8px 0; /* vertical padding */
+    box-sizing: border-box; /* ensures padding doesn't exceed width */
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+/* Home Button Specific Styles */
+.header-home-btn {
+    background-color: white;
+    color: #e91e63; /* rose color text */
+    text-decoration: none;
+    margin-right: 10px; /* space between Home and More Options */
+}
+
+    .header-home-btn:hover {
+        background-color: #e91e63; /* rose hover */
+        color: white;
+        box-shadow: 0 0 0 2px white;
+    }
+
+/* More Button Specific Styles */
+.more-btn {
+    background-color: white;
+    color: #e91e63;
+    border: none;
+    cursor: pointer;
+}
+
+    .more-btn:hover {
+        background-color: #e91e63;
+        color: white;
+        box-shadow: 0 0 0 2px white;
+    }
+
+/* ================= DASHBOARD ================= */
+/* ================= DASHBOARD ================= */
+.dashboard {
+    position: fixed;
+    top: 102px; /* exactly below header, touching it */
+    right: 0;
+    height: calc(100vh - 102px); /* full height minus header */
+    width: 220px;
+    background-color: #ff4081;
+    padding: 15px;
+    border-radius: 0 0 0 10px;
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* space between buttons */
+}
+    .dashboard.open {
+        transform: translateX(0);
+    }
+
+    .dashboard button {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: white;
+        color: #e91e63;
+        font-weight: bold;
+        transition: all 0.3s ease;
+    }
+
+        .dashboard button:hover {
+            background-color: #e91e63;
+            color: white;
+            box-shadow: 0 0 0 2px white;
+        }
+
+/* ================= PROFILE CONTAINER ================= */
+.profile-container {
+    min-height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f4f4f4;
+    padding-top: calc(30px + 42px + 30px); /* avoid content under fixed header */
+}
+
+.profile-box {
+    width: 340px;
+    min-height: 380px;
+    background: #fff;
+    padding: 24px 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.18);
+    margin-top: 12px;
+    max-height: 85vh;
+}
+
+.profile-icon {
+    text-align: center;
+    font-size: 42px;
+}
+
+.profile-title {
+    text-align: center;
+    margin: 6px 0 18px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.profile-line {
+    font-size: 17px;
+    margin-bottom: 14px;
+    color: #222;
+    padding-left: 10px;
+}
+
+    .profile-line span {
+        display: inline-block;
+        width: 100px; /* label alignment */
+        font-weight: bold;
+        color: #555;
+    }
+
+.profile-divider {
+    border-top: 1px solid #ddd;
+    margin: 10px 0 18px;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 768px) {
+    .main-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 20px;
+    }
+
+    .header-home-btn,
+    .more-btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .dashboard {
+        width: 80%;
+        top: calc(20px + 42px + 20px); /* adjusted header for mobile */
+        height: calc(100vh - (20px + 42px + 20px));
+        padding: 15px;
+        gap: 10px;
+    }
+
+    .profile-container {
+        padding-top: calc(20px + 42px + 20px);
+    }
+
+    .profile-box {
+        width: 90%;
+        padding: 20px;
+    }
+}

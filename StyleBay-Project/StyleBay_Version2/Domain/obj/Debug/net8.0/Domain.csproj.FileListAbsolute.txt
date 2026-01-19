@@ -1,0 +1,42 @@
+D:\Blazor\Project 2.0\Project_Version2\StyleBay_Version2\Domain\bin\Debug\net8.0\Domain.deps.json
+D:\Blazor\Project 2.0\Project_Version2\StyleBay_Version2\Domain\bin\Debug\net8.0\Domain.runtimeconfig.json
+D:\Blazor\Project 2.0\Project_Version2\StyleBay_Version2\Domain\bin\Debug\net8.0\Domain.dll
+D:\Blazor\Project 2.0\Project_Version2\StyleBay_Version2\Domain\bin\Debug\net8.0\Domain.pdb
+D:\Blazor\Project 2.0\Project_Version2\StyleBay_Version2\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+D:\Blazor\Project 2.0\Project_Version2\StyleBay_Version2\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Blazor\Project 2.0\Project_Version2\StyleBay_Version2\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+D:\Blazor\Project 2.0\Project_Version2\StyleBay_Version2\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+D:\Blazor\Project 2.0\Project_Version2\StyleBay_Version2\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+D:\Blazor\Project 2.0\Project_Version2\StyleBay_Version2\Domain\obj\Debug\net8.0\Domain.dll
+D:\Blazor\Project 2.0\Project_Version2\StyleBay_Version2\Domain\obj\Debug\net8.0\refint\Domain.dll
+D:\Blazor\Project 2.0\Project_Version2\StyleBay_Version2\Domain\obj\Debug\net8.0\Domain.pdb
+D:\Blazor\Project 2.0\Project_Version2\StyleBay_Version2\Domain\obj\Debug\net8.0\Domain.genruntimeconfig.cache
+D:\Blazor\Project 2.0\Project_Version2\StyleBay_Version2\Domain\obj\Debug\net8.0\ref\Domain.dll
+D:\Blazor\Project 2.0\to integrate\StyleBay_Version2\Domain\bin\Debug\net8.0\Domain.deps.json
+D:\Blazor\Project 2.0\to integrate\StyleBay_Version2\Domain\bin\Debug\net8.0\Domain.runtimeconfig.json
+D:\Blazor\Project 2.0\to integrate\StyleBay_Version2\Domain\bin\Debug\net8.0\Domain.dll
+D:\Blazor\Project 2.0\to integrate\StyleBay_Version2\Domain\bin\Debug\net8.0\Domain.pdb
+D:\Blazor\Project 2.0\to integrate\StyleBay_Version2\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+D:\Blazor\Project 2.0\to integrate\StyleBay_Version2\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Blazor\Project 2.0\to integrate\StyleBay_Version2\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+D:\Blazor\Project 2.0\to integrate\StyleBay_Version2\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+D:\Blazor\Project 2.0\to integrate\StyleBay_Version2\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+D:\Blazor\Project 2.0\to integrate\StyleBay_Version2\Domain\obj\Debug\net8.0\Domain.dll
+D:\Blazor\Project 2.0\to integrate\StyleBay_Version2\Domain\obj\Debug\net8.0\refint\Domain.dll
+D:\Blazor\Project 2.0\to integrate\StyleBay_Version2\Domain\obj\Debug\net8.0\Domain.pdb
+D:\Blazor\Project 2.0\to integrate\StyleBay_Version2\Domain\obj\Debug\net8.0\Domain.genruntimeconfig.cache
+D:\Blazor\Project 2.0\to integrate\StyleBay_Version2\Domain\obj\Debug\net8.0\ref\Domain.dll
+D:\MY FOLDER\to integrate\StyleBay_Version2\Domain\bin\Debug\net8.0\Domain.deps.json
+D:\MY FOLDER\to integrate\StyleBay_Version2\Domain\bin\Debug\net8.0\Domain.runtimeconfig.json
+D:\MY FOLDER\to integrate\StyleBay_Version2\Domain\bin\Debug\net8.0\Domain.dll
+D:\MY FOLDER\to integrate\StyleBay_Version2\Domain\bin\Debug\net8.0\Domain.pdb
+D:\MY FOLDER\to integrate\StyleBay_Version2\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+D:\MY FOLDER\to integrate\StyleBay_Version2\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\MY FOLDER\to integrate\StyleBay_Version2\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+D:\MY FOLDER\to integrate\StyleBay_Version2\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+D:\MY FOLDER\to integrate\StyleBay_Version2\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+D:\MY FOLDER\to integrate\StyleBay_Version2\Domain\obj\Debug\net8.0\Domain.dll
+D:\MY FOLDER\to integrate\StyleBay_Version2\Domain\obj\Debug\net8.0\refint\Domain.dll
+D:\MY FOLDER\to integrate\StyleBay_Version2\Domain\obj\Debug\net8.0\Domain.pdb
+D:\MY FOLDER\to integrate\StyleBay_Version2\Domain\obj\Debug\net8.0\Domain.genruntimeconfig.cache
+D:\MY FOLDER\to integrate\StyleBay_Version2\Domain\obj\Debug\net8.0\ref\Domain.dll

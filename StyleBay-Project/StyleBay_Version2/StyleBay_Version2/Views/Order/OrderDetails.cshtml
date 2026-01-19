@@ -1,0 +1,57 @@
+﻿@model Domain.Models.Order
+@{
+    Layout = null;
+}
+
+<link rel="stylesheet" href="~/css/OrderDetails.css" />
+
+<!-- HEADER WITH HOME BUTTON -->
+<header class="header">
+    <div class="header-title">StyleBay</div>
+
+    <a href="/User/Index" class="header-home-btn">
+        Home
+    </a>
+</header>
+
+<div class="order-wrapper">
+
+    <div class="order-card">
+
+        <h2 class="title">Order Details</h2>
+
+        <div class="order-info">
+            <div><strong>Order ID:</strong> @Model.Id</div>
+            <div><strong>Order Date:</strong> @Model.OrderDate</div>
+            <div><strong>Payment Method:</strong> @Model.PaymentMethod</div>
+            <div><strong>Delivery Address:</strong> @Model.DeliveryAddress</div>
+        </div>
+
+        <table class="order-table">
+            <thead>
+                <tr>
+                    <th>Dress</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.OrderDetails)
+                {
+                    <tr>
+                        <td>@item.DressName</td>
+                        <td>₹@item.Price</td>
+                        <td>@item.Quantity</td>
+                        <td>₹@(item.Price* item.Quantity)</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <div class="total-box">
+            Total Paid: <span>₹@Model.TotalAmount</span>
+        </div>
+
+    </div>
+</div>

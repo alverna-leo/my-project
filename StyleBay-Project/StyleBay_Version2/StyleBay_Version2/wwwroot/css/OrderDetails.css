@@ -1,0 +1,117 @@
+﻿body {
+    margin: 0;
+    background-color: #f5f7fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* HEADER */
+.header {
+    background-color: #ff4081; /* pink header */
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.header-title {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* HEADER HOME BUTTON */
+.header-home-btn {
+    background-color: white; /* button background */
+    color: #ff4081; /* pink text same as header */
+    border: none; /* no border */
+    padding: 8px 16px; /* comfortable size */
+    border-radius: 5px; /* slightly rounded */
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+    /* Hover: pink background + white text + white outline */
+    .header-home-btn:hover {
+        background-color: #ff4081;
+        color: white;
+        box-shadow: 0 0 0 2px white; /* white outline effect */
+    }
+
+/* PAGE WRAPPER */
+.order-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px; /* spacing from top */
+}
+
+/* CARD */
+.order-card {
+    background: white;
+    width: 90%; /* card width */
+    max-width: 1000px; /* max width */
+    padding: 40px; /* padding inside card */
+    border-radius: 14px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+/* TITLE */
+.title {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+/* ORDER INFO */
+.order-info {
+    background: #f8f9fb;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+    .order-info div {
+        margin: 8px 0;
+        color: #444;
+    }
+
+/* TABLE */
+.order-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+    .order-table th {
+        background-color: #ff4081; /* pink header */
+        color: white;
+        padding: 14px;
+        text-align: center;
+    }
+
+    .order-table td {
+        padding: 12px;
+        border-bottom: 1px solid #ffd1df; /* light pink line */
+        text-align: center;
+    }
+
+    .order-table tr:hover {
+        background-color: #ffe4ec; /* light pink hover */
+    }
+
+/* TOTAL */
+.total-box {
+    margin-top: 20px;
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+    .total-box span {
+        color: #28a745; /* green for total amount */
+    }
